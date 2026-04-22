@@ -28,8 +28,6 @@ services:
     pocketbase:
         image: ghcr.io/muchobien/pocketbase:latest
         container_name: monochrome-pocketbase
-        profiles:
-            - pocketbase
         restart: unless-stopped
         environment:
             PB_ADMIN_EMAIL: ${PB_ADMIN_EMAIL:-admin@example.com}
