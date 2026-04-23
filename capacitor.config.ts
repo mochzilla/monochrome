@@ -10,6 +10,10 @@ const config: CapacitorConfig = {
         splashBackgroundColor: '#000000',
         splashBackgroundColorDark: '#000000',
     },
+    server: {
+        hostname: 'listen.tidal.com',
+        androidScheme: 'https',
+    }
 };
 
 export default config;
